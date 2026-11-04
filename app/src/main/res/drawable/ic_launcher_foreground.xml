@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21 to 87) -->
+    <!-- AR Corner brackets -->
+    <path
+        android:pathData="M27,37 V27 H37"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M71,27 H81 V37"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M27,71 V81 H37"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M71,81 H81 V71"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Isometric 3D AR Cube in Center -->
+    <!-- Top Face -->
+    <path
+        android:fillColor="#80D8FF"
+        android:pathData="M54,36 L68,44 L54,52 L40,44 Z" />
+    <!-- Left Face -->
+    <path
+        android:fillColor="#00B0FF"
+        android:pathData="M40,44 L54,52 L54,68 L40,60 Z" />
+    <!-- Right Face -->
+    <path
+        android:fillColor="#0091EA"
+        android:pathData="M54,52 L68,44 L68,60 L54,68 Z" />
+
+    <!-- AR Pulse Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,49 A3,3 0 1,0 54,43 A3,3 0 1,0 54,49 Z" />
+</vector>

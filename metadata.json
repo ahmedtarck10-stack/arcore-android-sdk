@@ -1,0 +1,10 @@
+{
+  "name": "ARCore Studio",
+  "description": "ARCore Android SDK showcase and interactive augmented reality studio featuring plane detection, 3D model placement, face tracking meshes, image scanning, and computer vision filters.",
+  "requestFramePermissions": [
+    "android.permission.CAMERA"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
